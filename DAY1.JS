@@ -1,1 +1,2 @@
-console.log(4+5);
+console.log(`Hello`);
+window.alert(`This is alert message`);
