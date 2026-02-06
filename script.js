@@ -70,14 +70,75 @@
 
 // console.log(!true);
 // console.log(!false);
--------------------
-FUNCTIONS
-DO NOT REPEAT YOURSELF
- function avg(a, b){
-     return (a+b)/2;
- }
- c1 = avg(9,7);
- c2 = avg(4,2);
- console.log(c1);
- console.log(c2);
 
+
+// FUNCTIONS
+// DO NOT REPEAT YOURSELF
+//  function avg(a, b){
+//      return (a+b)/2;
+//  }
+//  c1 = avg(9,7);
+//  c2 = avg(4,2);
+//  console.log(c1);
+//  console.log(c2);
+
+CONDITIONALS
+//if statement
+var age = 18;
+
+if (age >= 18) {
+  console.log("You are an adult");
+}
+//if-else statement
+var age = 2;
+
+ if(age>18){
+     console.log("You are not a kid");
+ }
+ else{
+     console.log("You are a kid");
+ }
+//if-else Ladder
+var marks = 33;
+if(marks>90){
+    console.log("Excellent");
+}
+else if(marks>80){
+    console.log("Very good");
+}
+else if(marks>70){
+    console.log("Good");
+}
+else if(marks>60){
+    console.log("Average");
+}
+else{
+    console.log("Poor");
+}
+//Switch statement
+var day = 3;
+switch(day){
+    case 1;
+    console.log("Monday");
+    break;
+
+case 2:
+    console.log("Tuesday");
+    break;
+    case 3:
+        console.log("Wednesday");
+        break;
+        default:
+            console.log("Invalid day");
+}
+//Ternary short condition
+var age = 16;
+var result = age>=18 ? "Adult" : "Minor";
+console.log(result);
+//Logical condition
+var username = "admin";
+var password = "1234";
+
+if (username === "admin" && password === "1234") {
+  console.log("Login successful");
+}
