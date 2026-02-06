@@ -52,21 +52,32 @@
 // c/=2;
 // console.log(c);
 //COMPARISON OP
-var x = 66;
-var y = 33;
+//var x = 66;
+//var y = 33;
 //console.log(x == y);
 // console.log(x>=y);
 // console.log(x<=y);
 // console.log(x>y);
 // console.log(x<y);
 //LOGICAL OP
-console.log(true && true);
-console.log(true && false);
-console.log(false && false);
+// console.log(true && true);
+// console.log(true && false);
+// console.log(false && false);
 
-console.log(true || true);
-console.log(true || false);
-console.log(false || false);
+// console.log(true || true);
+// console.log(true || false);
+// console.log(false || false);
 
-console.log(!true);
-console.log(!false);
+// console.log(!true);
+// console.log(!false);
+-------------------
+FUNCTIONS
+DO NOT REPEAT YOURSELF
+ function avg(a, b){
+     return (a+b)/2;
+ }
+ c1 = avg(9,7);
+ c2 = avg(4,2);
+ console.log(c1);
+ console.log(c2);
+
