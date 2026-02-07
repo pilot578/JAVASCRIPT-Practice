@@ -82,63 +82,107 @@
 //  console.log(c1);
 //  console.log(c2);
 
-CONDITIONALS
-//if statement
-var age = 18;
+// CONDITIONALS
+// //if statement
+// var age = 18;
 
-if (age >= 18) {
-  console.log("You are an adult");
-}
-//if-else statement
-var age = 2;
+// if (age >= 18) {
+//   console.log("You are an adult");
+// }
+// //if-else statement
+// var age = 2;
 
- if(age>18){
-     console.log("You are not a kid");
+//  if(age>18){
+//      console.log("You are not a kid");
+//  }
+//  else{
+//      console.log("You are a kid");
+//  }
+// //if-else Ladder
+// var marks = 33;
+// if(marks>90){
+//     console.log("Excellent");
+// }
+// else if(marks>80){
+//     console.log("Very good");
+// }
+// else if(marks>70){
+//     console.log("Good");
+// }
+// else if(marks>60){
+//     console.log("Average");
+// }
+// else{
+//     console.log("Poor");
+// }
+// //Switch statement
+// var day = 3;
+// switch(day){
+//     case 1;
+//     console.log("Monday");
+//     break;
+
+// case 2:
+//     console.log("Tuesday");
+//     break;
+//     case 3:
+//         console.log("Wednesday");
+//         break;
+//         default:
+//             console.log("Invalid day");
+// }
+// //Ternary short condition
+// var age = 16;
+// var result = age>=18 ? "Adult" : "Minor";
+// console.log(result);
+// //Logical condition
+// var username = "admin";
+// var password = "1234";
+
+// if (username === "admin" && password === "1234") {
+//   console.log("Login successful");
+// }
+LOOPS
+//for loop
+var arr = [1,6,5,9,8];
+ console.log(arr);
+ for(var i=0;i<arr.length;i++){
+     console.log(arr[i]);
  }
- else{
-     console.log("You are a kid");
+//forEach loop
+ var arr = [1,2,3,4,5];
+ arr.forEach(function(num){
+     console.log(num);
+});
+//while loop
+ var arr = [1,4,3,6,5];
+ var j = 0;
+while(j<arr.length){
+     console.log(arr[j]);
+     j++;
  }
-//if-else Ladder
-var marks = 33;
-if(marks>90){
-    console.log("Excellent");
-}
-else if(marks>80){
-    console.log("Very good");
-}
-else if(marks>70){
-    console.log("Good");
-}
-else if(marks>60){
-    console.log("Average");
-}
-else{
-    console.log("Poor");
-}
-//Switch statement
-var day = 3;
-switch(day){
-    case 1;
-    console.log("Monday");
-    break;
+//do while loop
+ var arr = [6,8,4,2,7];
+ j = 4;
+ do{
+     console.log(arr);
+     j++;
+ }while(j<arr.length);
+//Break
+ var arr = [1,7,9,8,5];
+ for(var i=0;i<arr.length;i++){
+     if(i==3){
+         break;
+     }
+    console.log(arr[i]);
+ }
+//Continue
+ var arr = [8,8,4,2,4];
+ for(var i=0;i<arr.length;i++){
+     if(i==2){
+         continue;
+     }
+     console.log(arr[i]);
+ }
 
-case 2:
-    console.log("Tuesday");
-    break;
-    case 3:
-        console.log("Wednesday");
-        break;
-        default:
-            console.log("Invalid day");
-}
-//Ternary short condition
-var age = 16;
-var result = age>=18 ? "Adult" : "Minor";
-console.log(result);
-//Logical condition
-var username = "admin";
-var password = "1234";
 
-if (username === "admin" && password === "1234") {
-  console.log("Login successful");
-}
