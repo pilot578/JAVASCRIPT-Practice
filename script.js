@@ -142,47 +142,60 @@
 // if (username === "admin" && password === "1234") {
 //   console.log("Login successful");
 // }
-LOOPS
-//for loop
-var arr = [1,6,5,9,8];
- console.log(arr);
- for(var i=0;i<arr.length;i++){
-     console.log(arr[i]);
- }
-//forEach loop
- var arr = [1,2,3,4,5];
- arr.forEach(function(num){
-     console.log(num);
-});
-//while loop
- var arr = [1,4,3,6,5];
- var j = 0;
-while(j<arr.length){
-     console.log(arr[j]);
-     j++;
- }
-//do while loop
- var arr = [6,8,4,2,7];
- j = 4;
- do{
-     console.log(arr);
-     j++;
- }while(j<arr.length);
-//Break
- var arr = [1,7,9,8,5];
- for(var i=0;i<arr.length;i++){
-     if(i==3){
-         break;
-     }
-    console.log(arr[i]);
- }
-//Continue
- var arr = [8,8,4,2,4];
- for(var i=0;i<arr.length;i++){
-     if(i==2){
-         continue;
-     }
-     console.log(arr[i]);
- }
-
-
+// LOOPS
+// //for loop
+// var arr = [1,6,5,9,8];
+//  console.log(arr);
+//  for(var i=0;i<arr.length;i++){
+//      console.log(arr[i]);
+//  }
+// //forEach loop
+//  var arr = [1,2,3,4,5];
+//  arr.forEach(function(num){
+//      console.log(num);
+// });
+// //while loop
+//  var arr = [1,4,3,6,5];
+//  var j = 0;
+// while(j<arr.length){
+//      console.log(arr[j]);
+//      j++;
+//  }
+// //do while loop
+//  var arr = [6,8,4,2,7];
+//  j = 4;
+//  do{
+//      console.log(arr);
+//      j++;
+//  }while(j<arr.length);
+// //Break
+//  var arr = [1,7,9,8,5];
+//  for(var i=0;i<arr.length;i++){
+//      if(i==3){
+//          break;
+//      }
+//     console.log(arr[i]);
+//  }
+// //Continue
+//  var arr = [8,8,4,2,4];
+//  for(var i=0;i<arr.length;i++){
+//      if(i==2){
+//          continue;
+//      }
+//      console.log(arr[i]);
+//  }
+ARRAY METHODS
+let myArr = ["Fan", "Car", 43, null, true];
+console.log(myArr.length);
+myArr.pop();//remove last element
+console.log(myArr);
+ myArr.push("Yashika");//add element at last
+ console.log(myArr);
+ myArr.shift();//remove first element
+ console.log(myArr);
+ myArr.unshift("Ayush");//add element at first
+ console.log(myArr);
+ myArr.toString();
+ console.log(myArr);
+myArr.sort();
+console.log(myArr);
