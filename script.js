@@ -183,19 +183,27 @@
 //          continue;
 //      }
 //      console.log(arr[i]);
-//  }
-ARRAY METHODS
-let myArr = ["Fan", "Car", 43, null, true];
-console.log(myArr.length);
-myArr.pop();//remove last element
-console.log(myArr);
- myArr.push("Yashika");//add element at last
- console.log(myArr);
- myArr.shift();//remove first element
- console.log(myArr);
- myArr.unshift("Ayush");//add element at first
- console.log(myArr);
- myArr.toString();
- console.log(myArr);
-myArr.sort();
-console.log(myArr);
+// //  }
+// ARRAY METHODS
+// let myArr = ["Fan", "Car", 43, null, true];
+// console.log(myArr.length);
+// myArr.pop();//remove last element
+// console.log(myArr);
+//  myArr.push("Yashika");//add element at last
+//  console.log(myArr);
+//  myArr.shift();//remove first element
+//  console.log(myArr);
+//  myArr.unshift("Ayush");//add element at first
+//  console.log(myArr);
+//  myArr.toString();
+//  console.log(myArr);
+// myArr.sort();
+// console.log(myArr);
+
+//STRING METHODS
+let LovelyString = "This is string method in javascript";
+console.log(LovelyString.length);
+console.log(LovelyString.indexOf("in"));
+console.log(LovelyString.slice(1,4));//access only these alpha
+d = LovelyString.replace("This", "That");
+console.log(d, LovelyString);
