@@ -201,9 +201,23 @@
 // console.log(myArr);
 
 //STRING METHODS
-let LovelyString = "This is string method in javascript";
-console.log(LovelyString.length);
-console.log(LovelyString.indexOf("in"));
-console.log(LovelyString.slice(1,4));//access only these alpha
-d = LovelyString.replace("This", "That");
-console.log(d, LovelyString);
+// let LovelyString = "This is string method in javascript";
+// console.log(LovelyString.length);
+// console.log(LovelyString.indexOf("in"));
+// console.log(LovelyString.slice(1,4));//access only these alpha
+// d = LovelyString.replace("This", "That");
+// console.log(d, LovelyString);
+
+//DATES
+let myDate = new Date();
+console.log(myDate);
+console.log(myDate.getTime());//time in sec
+console.log(myDate.getFullYear());//current year
+console.log(myDate.getDay());//count
+console.log(myDate.getMinutes());//minutes
+console.log(myDate.getHours());
+console.log(myDate.getMonth());
+console.log(myDate.toString());
+console.log(myDate.toLocaleDateString("en-AU"));//Other country date
+
+
